@@ -40,7 +40,12 @@ python ./gdal2tiles.py -l -p raster -z 3-6 -w none ../img/map5000x2321.jpg ../im
 python ./gdal2tiles-multiprocess.py -l -p raster -z 3-6 -w none ../img/map5000x2321.jpg ../img/tiles
 ```
 (Notes:
+
 Delete Old Tiles
+
 "3-6" = Zoom Range
+
 "map5000x2321.jpg" = Map File
+
 "tiles" = Output Folder
+)
