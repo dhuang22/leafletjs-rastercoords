@@ -37,6 +37,9 @@ Download gdal2tiles.py or multicore version https://github.com/commenthol/gdal2t
 Run:
 ```
 python ./gdal2tiles.py -l -p raster -z 3-6 -w none ../img/map5000x2321.jpg ../img/tiles
+
+or
+
 python ./gdal2tiles-multiprocess.py -l -p raster -z 3-6 -w none ../img/map5000x2321.jpg ../img/tiles
 ```
 (Notes:
