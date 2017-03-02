@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simple map with leaflet.js</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://unpkg.com/leaflet@1.0.3/dist/leaflet.css'>
+  <link rel="stylesheet" href="css/normalize.min.css">
+
+  <style>
+  /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+  body, html {
+    height: 100%;
+  }
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+  .leaflet-control-container {
+    margin-left: 200px;
+  }
+
+  </style>
+
+</head>
+
+<body>
+  <!--
+
+Dont't forget to include the required css and javascript:
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+
+-->
+    <div id="map"></div>
+
+<script src="js/prefixfree.min.js"></script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> -->
+<script src='https://unpkg.com/leaflet@1.0.3/dist/leaflet.js'></script>
+<!-- <script src="js/leaflet.js"></script> -->
+<script src="js/rastercoords.js"></script>
+<script src="js/demo.js"></script>
+
+</body>
+</html>
